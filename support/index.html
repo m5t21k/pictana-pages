@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pictana iOSアプリの使い方とお問い合わせ先。">
+  <title>サポート — Pictana</title>
+  <link rel="stylesheet" href="../assets/site.css">
+  <script defer src="../config.js"></script>
+  <script defer src="../assets/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="topbar"><div class="topbar-inner">
+    <a class="brand" href="../"><svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect x="5" y="3" width="20" height="22" rx="5" fill="#4D38C9" opacity=".28"/><rect x="8" y="6" width="20" height="22" rx="5" fill="#4D38C9"/><path d="m21.5 10 .9 2.1 2.1.9-2.1.9-.9 2.1-.9-2.1-2.1-.9 2.1-.9.9-2.1Z" fill="white"/><path d="M13 18h10M13 22h7" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>Pictana</a>
+    <nav aria-label="メインナビゲーション"><a href="./" aria-current="page">サポート</a><a href="../privacy/">プライバシー</a></nav>
+  </div></header>
+  <main id="main" class="content">
+    <p class="eyebrow">Help &amp; Support</p>
+    <h1>サポート</h1>
+    <p class="lede">Pictanaの利用でお困りのときは、下記をご確認ください。解決しない場合はお問い合わせください。</p>
+    <div class="contact-box">
+      <strong>お問い合わせ</strong>
+      <p data-support-email><a href="mailto:unfold.app.info@gmail.com">unfold.app.info@gmail.com</a></p>
+      <p class="meta">iOSのバージョン、Pictanaのバージョン、発生した操作と状況をお知らせください。スクリーンショット画像、OCR本文、住所、予定、購入情報など、問い合わせに不要な個人情報は送らないでください。</p>
+    </div>
+
+    <h2>よくある質問</h2>
+    <section class="faq"><h3>写真へのアクセスはなぜ必要ですか？</h3><p>写真ライブラリからスクリーンショットを選び、文字を読み取って情報カードに整理するために使用します。許可はiPhoneの「設定」から変更できます。アクセスを制限した場合、許可した写真だけを読み込みます。</p></section>
+    <section class="faq"><h3>元のスクリーンショットは削除されますか？</h3><p>Pictanaが写真アプリの元画像を自動的に削除することはありません。Pictana内のカード削除と、写真ライブラリの元画像削除は別の操作です。</p></section>
+    <section class="faq"><h3>Apple Intelligence非対応端末でも使えますか？</h3><p>利用できます。Vision OCRと基本的な端末内解析へ自動的に切り替わります。対応端末では、Apple Intelligenceを有効にすることでタイトル・分類・要約の精度向上が期待できます。</p></section>
+    <section class="faq"><h3>クラウド解析とは何ですか？</h3><p>ユーザーが設定で有効にし、送信内容に同意した場合だけ、スクリーンショット画像とOCR本文をFirebase Cloud Functions経由でOpenAIへ送信して解析します。初期状態ではオフです。通信や解析に失敗した場合は端末内解析の結果を使います。</p></section>
+    <section class="faq"><h3>動画広告を見ても解析枠が増えません</h3><p>通信状態や広告在庫により、動画広告を表示できない場合があります。報酬の付与が完了した表示を確認してから、解析可能枚数をご確認ください。同じ広告を途中で閉じた場合は追加されません。</p></section>
+    <section class="faq"><h3>購入を復元するには？</h3><p>Pictanaの「設定」から「購入を復元」をタップしてください。購入時と同じApple AccountでApp Storeにサインインし、ネットワークへ接続してお試しください。支払い方法や購入履歴はAppleが管理します。</p></section>
+    <section class="faq"><h3>Pictana AI Proを解約するには？</h3><ol><li>iPhoneの「設定」を開きます。</li><li>自分の名前をタップし、「サブスクリプション」を開きます。</li><li>Pictanaを選び、「サブスクリプションをキャンセル」をタップします。</li></ol><p>解約後も、通常は現在の請求期間の終了までは利用できます。Pictana Plusの買い切りはサブスクリプションではないため、この画面には表示されません。</p><p><a href="https://support.apple.com/ja-jp/118428">Appleのサブスクリプション解約手順</a></p></section>
+    <section class="faq"><h3>アプリ内データを削除できますか？</h3><p>「設定」の「すべてのアプリ内データを削除」から、Pictana内のカード、OCR本文、メモ、解析結果を削除できます。写真アプリの元画像と、Appleが管理する購入権利は削除されません。クラウド解析用の匿名アカウントと利用回数情報の削除については、アプリ内の案内に従ってください。</p></section>
+    <section class="faq"><h3>アプリのバージョンはどこで確認できますか？</h3><p>Pictanaの「設定」にある「このアプリについて」、またはiPhoneの「設定」→「一般」→「iPhoneストレージ」→「Pictana」で確認できます。</p></section>
+
+    <h2>運営者</h2>
+    <p data-operator>Pictana</p>
+    <p class="meta">プライバシーについては<a href="../privacy/">プライバシーポリシー</a>をご確認ください。</p>
+  </main>
+  <footer><div class="footer-inner"><span>© Pictana</span><span class="footer-links"><a href="../">ホーム</a><a href="../privacy/">プライバシー</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">利用規約</a></span></div></footer>
+</body>
+</html>
+
